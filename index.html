@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onepagewebsite</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="items block1" id="home">
+            <div class="header">
+                <div class="logo">
+                    <h1>EDAX</h1>
+                </div>
+                <div class="menu" onclick="Start()">
+                    <img src="images/menu.png" alt="" >
+                </div>
+            </div>
+            <div class="icons">
+                <a href="#"><img src="images/facebook.png" alt=""></a>
+                <a href="#"><img src="images/instagram.png" alt=""></a>
+                <a href="#"><img src="images/twitter.png" alt=""></a>
+                <a href="#"><img src="images/linkedin.png" alt=""></a>
+            </div>
+            <div class="main">
+            <div class="home">
+                <h1>The purpose is to teach, bring learning to people</h1>
+                <p>
+                    When you create pictures, charts, or diagrams, they also coordinate 
+                    with your current document look. You can easily change the formatting
+                    of selected text in the document text by choosing a look for the 
+                    selected text from the Quick Styles gallery on the Home tab.
+                </p>
+                <button class="btn" type="button">Read More</button>
+            </div>
+            </div>
+            <div class="sidebar">
+                <span id="cross" onclick="Close()">+</span>
+                <ul>
+                    <a href="#home">
+                        <li>Home</li>
+                    </a>
+                    <a href="#courses">
+                        <li>Courses</li>
+                    </a>
+                    <a href="#contact">
+                        <li>Contact Us</li>
+                    </a>
+                    <a href="#features">
+                        <li>Features</li>
+                    </a>
+                    <a href="#offer">
+                        <li>offer</li>
+                    </a>
+                    <a href="#about">
+                        <li>About US</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <div class="items block2" id="about">
+            <div class="about">
+                <div class="aboutImg">
+                    <img src="images/about.png" alt="">
+                </div>
+                <div class="des">
+                    <h1>About Us</h1>
+                    <p> 
+                        When you create pictures, charts, or diagrams, they also coordinate 
+                    with your current document look. You can easily change the formatting
+                    of selected text in the document text by choosing a look for the 
+                    selected text from the Quick Styles gallery on the Home tab.
+                    </p>
+                    <br>
+                    <span id="qoute">
+                        <p>"Leasrning is not attained by chance, it
+                        must be sought for which ardor and 
+                        attended to with dilligence"</p>
+                        <br>
+                        <span class="writer">
+                            Abigail Adams----
+                        </span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="items block3" id="features" >
+            <div class="flexbox">
+                <div class="flexitems">
+                <img src="images/pic-1.png" alt="">
+                <span>Learn Anywhere</span>
+                <br>
+                <p>Switch your computer, tablet or mobile device</p>
+                </div>
+
+                <div class="flexitems">
+                    <img src="images/pic-2.png" alt="">
+                    <span>Expert teachers</span>
+                    <br>
+                    <p>Learn from industry experts who are passoniate about teaching</p>
+                </div>
+                <div class="flexitems">
+                    <img src="images/pic-3.png" alt="">
+                    <span>Unlimited Access </span>
+                    <br>
+                    <p>Choose what you'd like to learn from our extensive subcription libary</p>
+                    </div>
+            </div>
+            <div class="trail">
+                <button type="button" class="btn ">Start free Trial</button>
+            </div>
+        </div>
+        <div class="items block4" id="courses">
+            <div class="flexbox2">
+                <div class="flexitem1">
+                    <span>Browse our top courses</span>
+                    <p>
+                        your current document look. You can easily change the formatting
+                        of selected text in the document text by choosing a look for the 
+                        selected text from the Quick Styles gallery on the Home tab.                 
+                    </p>
+                    <button class="btn" type="button">View All Courses</button>
+                </div>
+                <div class="flexitem2">
+                    <img src="images/course.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="items block5" id="offer">
+            <div class="flexbox3">
+                <div class="flexitem1 offer-details">
+                    <span>Limitless learning
+                        <br>
+                        Limitless possibilitties
+                    </span>
+                    <p>
+                        your current document look. You can easily change the formatting
+                        of selected text in the document text by choosing a look for the 
+                        selected text from the Quick Styles gallery on the Home tab.                 
+                    </p>
+                    <button class="btn start" type="button">Start With Free Month</button>
+                </div>
+                <div class="flexitem2 offer">
+                    <img src="images/offer.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="items block6" id="contact">
+            <div class="flexbox4">
+                <div class="flexitem1 contact">
+                    <span>
+                        Sign Up join our <br> learning community
+                    </span>
+                    <form>
+                        <input type="text" placeholder="First Name">
+                        <input type="text" placeholder="Last Name">
+                        <input type="email" placeholder="Email Address">
+                        <div class="buttons">
+                        <button class="btn">Sign Up</button>
+                        <button class="btn">Start Free Trial</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="flexitem2 contactImg">
+                    <img src="images/contact.png" alt="">
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footeritems">
+                    <h3>About Us</h3>
+                    <a href="#">Request a Demo</a>
+                    <a href="#">FAQs</a>
+                </div>
+                <div class="footeritems">
+                    <h3>Products</h3>
+                    <a href="#">Our Plans</a>
+                    <a href="#">Free trail</a>
+                </div>
+                <div class="footeritems">
+                    <h3>Support</h3>
+                    <a href="#features">Features</a>
+                    <a href="#contact">Contact Us</a>
+                </div>
+                <div class="footeritems">
+                    <h3>Explore</h3>
+                    <a href="#">Find a Nonprofit</a>
+                    <a href="#">Corporate Solutions</a>
+                </div>
+             
+                <div class="footeritems footerlinks">
+                    <a href="#">support@edax.com</a>
+                    <span>&copy; 2019 EDAX</span>
+                </div>
+                <div class="footeritems footerlink2">
+                    <div class="logo">
+                        <h1>EDAX</h1>
+                    </div>
+                    <button class="btn eng" type="button">ENGLISH</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
